@@ -10,6 +10,20 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from configuration.config import driver_setup
 
+""" TASK """
+
+"""
+URL: https://www.yavlena.com/broker/
+
+Create automated test which cover the following:
+
+Click on the “Зареди още“ button, this way on the page the brokers are loaded.
+For each broker get the name of the broker, and search by the name of the broker.
+
+On the search result view, make sure the searched broker is the only one displayed and make sure address,
+2 phone numbers (landline, and mobile) and the number of properties assigned to the broker are displayed.
+
+"""
 
 def test_bugaboo():
     driver = driver_setup()
